@@ -15,9 +15,8 @@ public class Student {
         studentName="";
     }
     
-    public Student(String firstName, String lastName)
-    {
-       studentName = firstName + " " +lastName;
+       public Student(String firstName, String lastName){
+        studentName= firstName+" "+lastName;
     }
     
     public Student(String firstName, String middleName, String lastName){

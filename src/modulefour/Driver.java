@@ -9,7 +9,7 @@ package modulefour;
  *
  * @author zqin
  */
-import others.StudentOne;
+import others.StudentOne; //if you want to use StudentOne class in package "others"
 
 public class Driver {
 
@@ -19,9 +19,10 @@ public class Driver {
     public static void main(String[] args) {
         // TODO code application logic here
         String personName;
-        StudentOne person = new StudentOne();
-        //Student person= new Student("Jerry","Qin");
+        Student person = new Student(); //first constructor
         person.setName( "Jerry Qin" );
+        //Student person= new Student("Jerry","Qin");  // second constructor; no need setName method
+        //Student person= new Student("Jerry","Adam","Qin"); //third constructor; no need setName method
        
         personName = person.getName();
         System.out.println("Driver name: "+personName);
