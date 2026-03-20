@@ -43,6 +43,11 @@ public class Dog {
       {
         age++;
       }
+      
+      @Override
+      public String toString(){
+          return name + " is a/an " +this.breed+ " and at the age of "+getAge();
+      }
 
 } // end class Dog
 

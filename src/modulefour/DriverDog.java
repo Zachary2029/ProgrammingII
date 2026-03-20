@@ -16,5 +16,6 @@ public class DriverDog {
          dog1.setAge(100);
          dog1.incrementAge();
         System.out.println(dog1.getAge());
+        System.out.println(dog1);
     }
 }
