@@ -26,7 +26,7 @@ public class ALDriver {
         System.out.println(comp.get(0).getSize());
         
         //Add a computer object with default values into the arraylist at index 1
-        comp.add(0, new Computer());
+        comp.add(3, new Computer());
         
         //Print the arrayList out so that all information for each computer is shown
 
