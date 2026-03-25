@@ -33,5 +33,33 @@ public class DriverEmployee {
         System.out.println("\n=== After Updates ===");
         System.out.println(hourlyEmp);
         System.out.println(salariedEmp);
+        
+        Object object1 = new Object();
+        
+        Employee bob = new Employee( "Bob", "Jones","499-99-9999");
+        
+        HourlyEmployee sue = new HourlyEmployee( "Sue","Smith", "488-88-8888", 10, 41);
+        //called implicit casting
+        Object object2 = new Employee("Jill", "Jones","555-555-5555");
+        
+        //instanceof examples
+        System.out.println(object1 instanceof Object);
+        System.out.println(object1 instanceof Employee);
+        System.out.println(object1 instanceof HourlyEmployee);
+        System.out.println();
+        
+        System.out.println(bob instanceof Object);
+        System.out.println(bob instanceof Employee);
+        System.out.println(bob instanceof HourlyEmployee);
+        System.out.println();
+        
+        System.out.println(sue instanceof Object);
+        System.out.println(sue instanceof Employee);
+        System.out.println(sue instanceof HourlyEmployee);
+        System.out.println();
+        
+        System.out.println(object2 instanceof Object);
+        System.out.println(object2 instanceof Employee);
+        System.out.println(object2 instanceof HourlyEmployee);
     }
 }
